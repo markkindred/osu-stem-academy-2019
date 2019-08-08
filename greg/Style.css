@@ -14,7 +14,7 @@ hgroup {
     display: block;
 }
 h1 {
-    font-size: 68px;
+    font-size: 80px;
 }
 h1, h2, h3, h4, h5 {
     text-shadow: 2px 2px 4px #999;
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5 {
 user agent stylesheet
 h1 {
     display: block;
-    font-size: 2em;
+    font-size: 3em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
@@ -95,8 +95,6 @@ h4 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-element.style {
-}
 h5 {
     font-size: 45px;
 }
@@ -106,7 +104,6 @@ h1, h2, h3, h4, h5 {
     margin: auto;
     color: #333;
 }
-user agent stylesheet
 h5 {
     display: block;
     font-size: 0.83em;
@@ -115,7 +112,14 @@ h5 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    ml, body {
-	padding: 0px;
-	margin: 0px;
+    
 }
+
+#button {
+  background-color: hotpink;
+}
+h1 {font-size:50px}
+h2 {font-size:50px}
+h3 {font-size:50px}
+h4 {font-size:50%}
+h5 {font-size:50%}
