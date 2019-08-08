@@ -1,0 +1,57 @@
+.center {
+  text-align: center;
+}
+.card-title {
+  font-size: 120px;
+  color: white
+}
+.card-img-overlay {
+  padding-top: 25%;
+}
+.card-text {
+  color: black;
+  text-align: left;
+  font-size: 24px
+}
+.small-card-title{
+  font-size: 50px;
+}
+.card {
+  height: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .card-title {
+    font-size: 70px
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card-title {
+    font-size: 30px
+  }
+}
+@media only screen and (max-width: 576px) {
+  .card-title {
+    font-size: 15px
+  }
+}
+@media only screen and (max-width: 992px) {
+  .main-card-text {
+    font-size: 20px
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main-card-text {
+    
+  }
+}
+@media only screen and (max-width: 992px) {
+  .small-card-title {
+    font-size: 30px
+  }
+}
+@media only screen and (max-width: 992px) {
+  .card-text {
+    font-size: 20px
+
+  }
+}
