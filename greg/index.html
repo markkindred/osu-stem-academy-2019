@@ -9,10 +9,22 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <script       $.ajax({
+  method: "GET",
+  url: "https://api.chucknorris.io/jokes/random"
+})
+  .done(function( response ) {
+    var output = JSON.parse(response);
+    docment.write( "<div>Random Chuck Norris data:</div>");
+    $.each(output, function(i, val){
+      document.write("<div>" + i + " = " + val + "</div>");
+    });
+  });
+  </script>
     <style>
       .bmc-button img{width: 20px !important;margin-bottom: 3px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{float: right; line-height: 21px !important;height:23px !important;text-decoration: none !important;display:inline-block !important;color:#ffffff !important;background-color:#FF813F !important;border-radius: 3px !important;border: 1px solid transparent !important;padding: 1px 9px !important;font-size: 16px !important;letter-spacing:0.9px !important; margin-top: 3px; margin-right: 5px; font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {text-decoration: none !important;opacity: 0.85 !important;color:#ffffff !important;}
       </style>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">    </script>
   </head>
   <body>
     <hgroup>
@@ -26,6 +38,17 @@
         ←
       </h5>
     <script>
+      $.ajax({
+  method: "GET",
+  url: "https://api.chucknorris.io/jokes/random"
+})
+  .done(function( response ) {
+    var output = JSON.parse(response);
+    docment.write( "<div>Random Chuck Norris data:</div>");
+    $.each(output, function(i, val){
+      document.write("<div>" + i + " = " + val + "</div>");
+    });
+  });
 				var uselessWebButton = new uselessWebButton( document.getElementById( 'button' ) ); 
 			</script>
   </body>
