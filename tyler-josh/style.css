@@ -2,14 +2,18 @@ div.navBar img {
   height:10%;
   width:10%;
 }
-div.navBar {
-  font-size:200%;
-  font: white;
-  border:4px solid black;
-  background: rgb(68, 68, 68);
+div.navBar{
+  border:1px solid black
+  font-size 200%;
+}
+div.
   
+  .buynow{
+    background: grey
+    border solid black;
+  }
   
-};
+
 
 .features {
   background-image:url("i.imgur.com/991uUWh.jpg");
@@ -19,29 +23,54 @@ div.navBar {
   height:auto;
   
 }
-.features {
-border:4px solid black;
-}
-
 div.imageContainer {
 size:150%
 }
 
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("https://i.imgur.com/991uUWh.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* Style the navbar */
 #navbar {
-  overflow: hidden;
+  overflow-x: -100;
+  font-size:200%;
+  width: 100%;    
+}
+
+}
+} 
+
+.divider {
+  background-color:whitesmoke;
+  border: 10px solid whitesmoke;
+}
+
+.other-versions {
+  font-size:150%;
+}
+.legal-more {
+  font-size:150%;
+  color:white;
+}
+
+div.featurestxt{
+
+  color:white;
 }
 
 
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0; 
-  width: 100%; 
-  border:4px solid black;
-  background: rgb(68, 68, 68);
-}
 
 
