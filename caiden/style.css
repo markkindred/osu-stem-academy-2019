@@ -1,0 +1,72 @@
+#head {
+  text-align:center;
+  background-image: url(https://img.grouponcdn.com/deal/LWGjcNB1gzLh8ZrfCMj/fV-960x582/v1/c700x420.jpg);
+  background-position: 50% 50%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-align: center;
+  background-width: 100%;
+  background-size: cover;
+}
+ #head h2{
+ color: white;
+ font-style: italic;
+}
+ #head h1{
+  color: white;
+  /*text-border:rgba(105, 56, 0, 0.342);*/
+}
+button a {
+ color: white;
+}
+.title {
+ background: rgba(0, 0, 0, 0.3); /* Black see-through */
+}
+body{
+  background-color: rgb(28, 49, 0);
+}
+.carousel-inner{
+  max-height: 500px;
+  width:100%;
+}
+.carousel-inner img {
+  height: 500px;
+  max-height: 500px;
+  object-fit: contain;
+}
+#button {
+  text-align:center;
+}
+#map {
+ height: 500px;
+ width: 600px;
+}
+head{
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+}
+label {
+  color: white;
+}
+#houseCreds{
+  color: white;
+  /*text-align:center;*/
+}
+#help{
+  text-align:center;
+}
+#thanks {
+  text-align:center;
+  background-image: url(https://img.grouponcdn.com/deal/LWGjcNB1gzLh8ZrfCMj/fV-960x582/v1/c700x420.jpg);
+  background-position: 50% 50%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-align: center;
+  background-width: 100%;
+  background-size: cover;
+}
+#thanksH1{
+  color:white;
+  text-align: center;
+}
