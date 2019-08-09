@@ -15,3 +15,7 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+function download () {
+  alert("Sorry, but we dont actually have a file for you. our bad. Have a good day!")
+}
