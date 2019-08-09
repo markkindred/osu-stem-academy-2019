@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p>
+    <ul>
+       <li> <a href="<li> https://ngcproject.org/"> National Girls Collaborative Project</a> </li>
+       
+       <li> <a href="https://www.nms.org/"> National Math and Science Initiative</a> </li>
+       
+       <li> <a href="https://www.wepan.org/"> Women in Engineering ProActive Network</a> </li>
+
+       <li> <a href="https://www.millionwomenmentors.com/"> Million Women Mentors </a> </li>
+
+       <li> <a href="https://www.aauw.org/"> American Association of University Women</a> </li>
+
+       <li> <a href="http://www.scientistafoundation.com/"> Scientista </a> </li>
+
+       <li> <a href="https://www.awis.org/"> Association for Women in Science </a> </li>
+
+    </p>   
+       
+
+    <script src="script.js"></script>
+  </body>
+</html>
